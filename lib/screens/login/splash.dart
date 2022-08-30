@@ -17,15 +17,17 @@ class SplashScreen extends StatelessWidget {
     });
 
     return Scaffold(
-      backgroundColor: kPrimaryColor,
-        body: Center(
-        child:Text(
-          'SIKOMAT',
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 35,
-            fontWeight: FontWeight.bold,
-          ),
+      backgroundColor: kBackgroundColor,
+        body: SizedBox(
+        width: double.infinity,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: const[
+            Image(
+              image: AssetImage("assets/images/sikomat.png"),
+              width: 200,
+              ),
+          ],
         ),
     ),
     );
