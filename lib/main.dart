@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:sikomat_bidan/constants.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:sikomat_bidan/screens/home_page.dart';
 import 'package:sikomat_bidan/screens/login/login.dart';
 import 'package:sikomat_bidan/screens/login/splash.dart';
 
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
       //   textTheme: GoogleFonts.robotoTextTheme(Theme.of(context).textTheme)
       // ),
       // home: LoginScreen(),
-      home: SplashScreen(),
+      home: HomePage(),
     );
   }
 }
