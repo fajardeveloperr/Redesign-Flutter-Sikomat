@@ -22,11 +22,25 @@ class SplashScreen extends StatelessWidget {
         width: double.infinity,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: const[
-            Image(
-              image: AssetImage("assets/images/sikomat.png"),
-              width: 200,
+          children: [
+            SizedBox(
+                width: 200, child: Image.asset("assets/images/sikomat.png")),
+            RichText(
+              textAlign: TextAlign.center,
+              text: TextSpan(
+                text: "Sikomat ",
+                style: styleFontBold,
+                // style: TextStyle(color: 
+                // Colors.black),
+                children: [
+                  TextSpan(
+                    text: "App",
+                  ),
+                ],
               ),
+              
+            ),
+            
           ],
         ),
     ),
