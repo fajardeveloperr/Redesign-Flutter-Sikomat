@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import 'package:get/instance_manager.dart';
+import 'package:sikomat_bidan/screens/home_page.dart';
 import 'package:sikomat_bidan/screens/login/login.dart';
 import 'package:sikomat_bidan/screens/login/splash.dart';
 import 'package:sikomat_bidan/constants.dart';
@@ -13,7 +14,7 @@ class SplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Timer(const Duration(seconds: 3), () {
-      Get.to(LoginScreen());
+      Get.to(HomePage());
     });
 
     return Scaffold(

@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
       //   textTheme: GoogleFonts.robotoTextTheme(Theme.of(context).textTheme)
       // ),
       // home: LoginScreen(),
-      home: HomePage(),
+      home: SplashScreen(),
     );
   }
 }

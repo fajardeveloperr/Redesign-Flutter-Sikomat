@@ -76,7 +76,7 @@ class _LoginScreenState extends State<LoginScreen> with SingleTickerProviderStat
             size: size,
             animationController: animationController,
             tapEvent: isLogin ? null : () { // returning null to disable the button
-              animationController!.reverse();
+              animationController!.reverse(); 
               setState(() {
                 isLogin = !isLogin;
               });
