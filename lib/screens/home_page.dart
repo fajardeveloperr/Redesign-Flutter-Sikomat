@@ -99,34 +99,34 @@ class _HomePageState extends State<HomePage> {
               const SizedBox(
                 height: 20,
               ),
-              Container(
-                padding: const EdgeInsets.only(
-                  left: 16
-                ),
-                  height: 64,
-                  decoration: BoxDecoration(
-                    color: Color.fromARGB(255, 255, 255, 255),
-                    borderRadius: BorderRadius.circular(16),
-                  ),
-                  child: Row(
-                    children: const [
-                  //     Icon(
-                  //     Icons.search,
-                  //     size: 32,
-                  //     color: Colors.black54,
-                  // ),
-                  SizedBox(
-                    width: 12,
-                  ),
-                  Text(
-                    "Search Here....",
-                    style: TextStyle(
-                      color: Colors.black54,
-                    ),
-                  )
-                  ],
-                  ),
-              ),
+              // Container(
+              //   padding: const EdgeInsets.only(
+              //     left: 16
+              //   ),
+              //     height: 64,
+              //     decoration: BoxDecoration(
+              //       color: Color.fromARGB(255, 255, 255, 255),
+              //       borderRadius: BorderRadius.circular(16),
+              //     ),
+              //     child: Row(
+              //       children: const [
+              //         Icon(
+              //         Icons.search,
+              //         size: 32,
+              //         color: Colors.black54,
+              //     ),
+              //     SizedBox(
+              //       width: 12,
+              //     ),
+              //     Text(
+              //       "Search Here....",
+              //       style: TextStyle(
+              //         color: Colors.black54,
+              //       ),
+              //     )
+              //     ],
+              //     ),
+              // ),
               const SizedBox(
                 height: 20,
               ),

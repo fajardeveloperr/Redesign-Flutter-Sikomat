@@ -14,7 +14,7 @@ class SplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Timer(const Duration(seconds: 3), () {
-      Get.to(HomePage());
+      Get.to(LoginScreen());
     });
 
     return Scaffold(
@@ -25,11 +25,11 @@ class SplashScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             SizedBox(
-                width: 200, child: Image.asset("assets/images/sikomat.png")),
+                width: 200, child: Image.asset("assets/images/main_icon.png")),
             RichText(
               textAlign: TextAlign.center,
               text: TextSpan(
-                text: "Sikomat ",
+                text: "Sikomat",
                 style: styleFontBold,
                 // style: TextStyle(color: 
                 // Colors.black),
